@@ -1,0 +1,121 @@
+.contenido{
+    padding-left: 50px;
+    padding-right: 50px;
+    /*background-color:aqua;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 1440px;
+}
+
+.navega{
+    display:grid ;
+    grid-template-columns: 50fr 50fr;
+    align-items: center;   
+    
+}
+
+.navs{
+    display:flex ;
+    align-items: center;   
+    
+}
+
+.navs p,h1{
+    margin-right: 10px;
+    
+}
+
+.navs p{
+    margin-right: 10px;
+    color: hsl(0, 0%, 75%);
+    &:hover{
+        color: black;
+    }
+}
+
+.logSig{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.logSig button{
+    margin-right: 10px;
+}
+
+.TextPresenta{
+    display: grid;
+    grid-template-columns: 40fr 50fr;
+    padding-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.Texts h1{
+    font-size: 50px;
+font-weight: bold;
+}
+
+.Texts p{
+    font-size: 17px;
+    padding-right: -10px;
+    color: hsl(0, 0%, 75%);
+}
+.imagen{
+    overflow: hidden;
+}
+
+.logSig button{
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    &:hover{  
+        background-color: hsl(180, 66%, 49%, 0.5) ;
+    }  
+    /* &:active{
+        background-color: hsl(180, 66%, 49%);
+    } */
+
+}
+
+
+.GetStart{
+    background-color: hsl(180, 66%, 49%);
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    &:hover{  
+        background-color: hsl(180, 66%, 49%, 0.5) ;
+    }  
+
+}
+
+.short{
+    position:relative;
+    background-color:#3A3053;
+    padding: 30px;
+    width: 80%;
+    border-radius: 10px;    
+}
+
+.cajashort input{
+    width: 75%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.cajashort button{
+    background-color: hsl(180, 66%, 49%);
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    &:hover{  
+        background-color: hsl(180, 66%, 49%, 0.5) ;
+    }  
+    font: bold;
+
+}

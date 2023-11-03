@@ -119,3 +119,162 @@ font-weight: bold;
     font: bold;
 
 }
+
+/*comienza segunda parte*/
+.contenedor{
+    display: flex;
+    padding: 15px;
+    gap: 30px;
+    box-sizing: border-box;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    justify-content: center;
+    }
+    
+    .cir1{
+       margin-left: 25px;
+       position: absolute;
+       right: 188px;
+       top:1150px;
+      
+    }
+   
+    .cir2{
+       margin-left: 25px;
+       position: absolute;
+       right: 88px;
+       top:1150px;
+      
+    }
+   
+    .cir3{
+       margin-left: 25px;
+       position: absolute;
+       right: 28px;
+       top:1150px;
+      
+    }
+   
+   
+   .C1{
+   
+       background-color: white;
+       padding-top: 60px;
+       padding-bottom: 60px;
+       padding-right: 25px;
+       padding-left: 25px;
+       text-align: left;
+       width: 350px;
+       box-sizing: border-box;
+     
+   
+   }
+   
+   .C2{
+   
+       background-color: white;
+       padding-top: 60px;
+       padding-bottom: 60px;
+       padding-right: 25px;
+       padding-left: 25px;
+       text-align: left;
+       width: 350px;
+      
+     
+   }
+   
+   
+   .C3{
+   
+       background-color: white;
+       padding-top: 60px;
+       padding-bottom: 60px;
+       padding-right: 25px;
+       padding-left: 25px;
+       text-align: left;
+       width: 350px;
+       
+     
+   }
+   
+   
+   
+    .cajaconfondo{
+       position:relative;
+       background-color:#3A3053;
+    }
+   
+    .subti{
+       position: absolute;
+       top: 35%;
+       left: 40%;
+       color: white;
+       
+    }
+   
+   .gbtn{
+       position:absolute;
+       top: 65%;
+       left: 46%;
+       color: white;
+       background-color:#2BD1D1;
+       border-radius: 35px;
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+    }
+   
+    .gbtn:hover{
+       background-color: #2BD1D1;
+       opacity: 90%;
+    }
+   
+    Footer{
+       background-color: #232027; 
+       display: flex;
+       gap:250px;
+       color: white;
+       box-sizing: border-box;
+   justify-content: space-between;
+   }
+   
+   .redes{
+       display: flex;
+       gap:15px;
+       margin-right: 150px;
+       box-sizing: border-box; 
+       margin-top: 22px;
+   }
+   
+   .lista{
+       display: flex;
+                     
+   }
+   
+   ul{
+       list-style-type: none;
+   }
+   
+   
+   .lista2{
+   
+   margin-left: 50px;
+   margin-right: 50px;
+   }
+   
+   .lista3{
+   
+     margin-right: 10px;
+   }
+   
+   
+   
+   .tit3{
+       margin-left: 120px;
+       padding: 0px;
+       margin-top: 22px;
+       font-size: 30px;
+   }
+   
+   

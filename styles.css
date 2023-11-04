@@ -108,12 +108,14 @@ font-weight: bold;
     padding: 30px;
     width: 80%;
     border-radius: 10px;    
+   
 }
 
 .cajashort input{
     width: 75%;
     height: 50px;
     border-radius: 10px;
+   
 }
 
 .cajashort button{
@@ -126,7 +128,7 @@ font-weight: bold;
         background-color: hsl(180, 66%, 49%, 0.5) ;
     }  
     font: bold;
-
+    
 }
 
 /*comienza segunda parte*/
@@ -155,67 +157,68 @@ font-weight: bold;
         text-align: center;
         color:gray;
         opacity: 45%;
-       
+       padding-left: 410px;
+       padding-right: 410px;
     }
 
 
     .cir1{
        margin-left: 25px;
        position: absolute;
-       right: 188px;
-       top:1150px;
-      background-color: blue;
+       left: 208px;
+       top:60px;
+      z-index: 1;
+
+
+      
     }
    
     .cir2{
        margin-left: 25px;
        position: absolute;
-       right: 88px;
-       top:1150px;
-       background-color: red;
+       right: 408px;
+       top:119px;
+      z-index: 1;
       
     }
    
     .cir3{
        margin-left: 25px;
        position: absolute;
-       right: 28px;
-       top:1150px;
-       background-color: green;
+       left: 570px;
+       top:95px;
+       z-index: 1;
       
     }
    
    
    .C1{
         position: absolute;
-       
-
-
-       background-color: pink;
+       background-color: white;
        padding-top: 60px;
        padding-bottom: 60px;
-       padding-right: 25px;
-       padding-left: 25px;
+       padding-right: 35px;
+       padding-left: 35px;
        text-align: left;
-       width: 350px;
+       width: 320px;
        position: absolute;
-       left: 120px;;
-        box-sizing: border-box;
+       left: 200px;;
+       box-sizing: border-box;
    
    }
    
    .C2{
    
-       background-color: red;
+    background-color: white;
        padding-top: 60px;
        padding-bottom: 60px;
-       padding-right: 25px;
-       padding-left: 25px;
+       padding-right: 35px;
+       padding-left: 35px;
        text-align: left;
-       width: 350px;
+       width: 320px;
        position: absolute;
-       right: 120px;
-       top:220px;
+       right: 200px;
+       top:165px;
        box-sizing: border-box;
       
      
@@ -224,20 +227,40 @@ font-weight: bold;
    
    .C3{
    
-       background-color: green;
+       background-color: white;
        padding-top: 60px;
        padding-bottom: 60px;
-       padding-right: 25px;
-       padding-left: 25px;
+       padding-right: 35px;
+       padding-left: 35px;
        text-align: left;
-       width: 350px;
+       width: 320px;
        position: absolute;
-       left: 550px;
-        top:160px;
+       left: 560px;
+        top:135px;
         box-sizing: border-box;
    }
    
+
+   .conector1{
+    background-color: aqua;
+    width:39px ;
+    height: 5px;
+    position: absolute;
+    left:520px;
+    top:220px
+   }
    
+
+   .conector2{
+    background-color: aqua;
+    width:39px ;
+    height: 5px;
+    position: absolute;
+    right: 520px;
+    top:220px
+   }
+
+
    
     .cajaconfondo{
        position:relative;

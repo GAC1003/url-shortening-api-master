@@ -138,8 +138,30 @@ font-weight: bold;
     padding-bottom: 200px;
     padding-top: 100px;
     justify-content: center;
+    
     }
     
+
+
+    .parte2{
+        background-color: #F0F1F6;
+        
+    }
+    
+    .titulos{
+     text-align: center;
+     padding-top: 300px;
+        
+    }
+    
+    #subti2{
+        text-align: center;
+        color:gray;
+        opacity: 45%;
+       
+    }
+
+
     .cir1{
        margin-left: 25px;
        position: absolute;

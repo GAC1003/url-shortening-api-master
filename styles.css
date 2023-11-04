@@ -108,7 +108,8 @@ font-weight: bold;
     padding: 30px;
     width: 80%;
     border-radius: 10px;    
-   
+    z-index: 1;
+    top: 60px;
 }
 
 .cajashort input{
@@ -137,7 +138,7 @@ font-weight: bold;
     padding: 15px;
     gap: 30px;
     box-sizing: border-box;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
     padding-top: 100px;
     position: relative; 
     }
@@ -149,7 +150,7 @@ font-weight: bold;
     
     .titulos{
      text-align: center;
-     padding-top: 300px;
+     padding-top: 120px;
         
     }
     

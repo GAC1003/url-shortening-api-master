@@ -131,17 +131,14 @@ font-weight: bold;
 
 /*comienza segunda parte*/
 .contenedor{
-    display: flex;
+    
     padding: 15px;
     gap: 30px;
     box-sizing: border-box;
-    padding-bottom: 200px;
+    padding-bottom: 500px;
     padding-top: 100px;
-    justify-content: center;
-    
+    position: relative; 
     }
-    
-
 
     .parte2{
         background-color: #F0F1F6;
@@ -167,7 +164,7 @@ font-weight: bold;
        position: absolute;
        right: 188px;
        top:1150px;
-      
+      background-color: blue;
     }
    
     .cir2{
@@ -175,6 +172,7 @@ font-weight: bold;
        position: absolute;
        right: 88px;
        top:1150px;
+       background-color: red;
       
     }
    
@@ -183,33 +181,42 @@ font-weight: bold;
        position: absolute;
        right: 28px;
        top:1150px;
+       background-color: green;
       
     }
    
    
    .C1{
-   
-       background-color: white;
+        position: absolute;
+       
+
+
+       background-color: pink;
        padding-top: 60px;
        padding-bottom: 60px;
        padding-right: 25px;
        padding-left: 25px;
        text-align: left;
        width: 350px;
-       box-sizing: border-box;
-     
+       position: absolute;
+       left: 120px;;
+        box-sizing: border-box;
    
    }
    
    .C2{
    
-       background-color: white;
+       background-color: red;
        padding-top: 60px;
        padding-bottom: 60px;
        padding-right: 25px;
        padding-left: 25px;
        text-align: left;
        width: 350px;
+       position: absolute;
+       right: 120px;
+       top:220px;
+       box-sizing: border-box;
       
      
    }
@@ -217,15 +224,17 @@ font-weight: bold;
    
    .C3{
    
-       background-color: white;
+       background-color: green;
        padding-top: 60px;
        padding-bottom: 60px;
        padding-right: 25px;
        padding-left: 25px;
        text-align: left;
        width: 350px;
-       
-     
+       position: absolute;
+       left: 550px;
+        top:160px;
+        box-sizing: border-box;
    }
    
    

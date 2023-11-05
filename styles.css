@@ -25,17 +25,19 @@ body{
 .navs{
     display:flex ;
     align-items: center;   
-    
+    font-family: 'Poppins', sans-serif;
 }
 
-.navs p,h1{
-    margin-right: 10px;
+.navs h1{
+    margin-right: 35px;
     
 }
 
 .navs p{
-    margin-right: 10px;
+    margin-right: 20px;
     color: hsl(0, 0%, 75%);
+    font-weight: 700;
+    font-size: 13.33333px;
     &:hover{
         color: black;
     }
@@ -50,6 +52,8 @@ body{
 
 .logSig button{
     margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .TextPresenta{
@@ -59,6 +63,11 @@ body{
     padding-right: 15px;
     font-family: 'Poppins', sans-serif;
     margin-right: 20%;
+    
+}
+
+.Texts{
+    margin-top: 40px;
 }
 
 .Texts h1{
@@ -98,6 +107,7 @@ font-weight: bold;
     border-radius: 25px;
     border: none;
     color: white;
+    font-weight: 700;
     &:hover{  
         background-color: hsl(180, 66%, 49%, 0.5) ;
     }  
@@ -106,6 +116,7 @@ font-weight: bold;
 
 .short{
     position:relative;
+    background-image: url(images/bg-shorten-desktop.svg);
     background-color:#3A3053;
     padding: 30px;
     width: 67%;
@@ -118,20 +129,24 @@ font-weight: bold;
     width: 75%;
     height: 50px;
     border-radius: 10px;
-   
+   font-size: 15px;
 }
 
 .cajashort button{
     background-color: hsl(180, 66%, 49%);
     padding: 10px 25px;
     border-radius: 10px;
-    border: none;
+    border: none;  
+    height: 53px;
+    width:  20%;
     color: white;
     &:hover{  
         background-color: hsl(180, 66%, 49%, 0.5) ;
     }  
     font: bold;
-    
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 /*comienza segunda parte*/

@@ -108,8 +108,9 @@ font-weight: bold;
     position:relative;
     background-color:#3A3053;
     padding: 30px;
-    width: 80%;
-    border-radius: 10px;    
+    width: 67%;
+    border-radius: 10px;  
+    margin-left: 15%;  
    
 }
 

@@ -168,7 +168,7 @@ font-weight: bold;
     .titulos{
      text-align: center;
      padding-top: 120px;
-        
+       font-family: 'Poppins', sans-serif; 
     }
     
     #subti2{
@@ -177,6 +177,8 @@ font-weight: bold;
         opacity: 45%;
        padding-left: 410px;
        padding-right: 410px;
+       font-size: 20px;
+       font-weight: 700; /*Podriamos ponerle 400*/
     }
 
 
@@ -222,6 +224,7 @@ font-weight: bold;
        position: absolute;
        left: 200px;;
        box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
    
    }
    
@@ -238,7 +241,7 @@ font-weight: bold;
        right: 200px;
        top:165px;
        box-sizing: border-box;
-      
+       font-family: 'Poppins', sans-serif;
      
    }
    
@@ -256,9 +259,9 @@ font-weight: bold;
        left: 560px;
         top:135px;
         box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
    }
    
-
    .conector1{
     background-color: aqua;
     width:39px ;
@@ -290,7 +293,7 @@ font-weight: bold;
        top: 35%;
        left: 40%;
        color: white;
-       
+       font-family: 'Poppins', sans-serif;
     }
    
    .gbtn{
@@ -304,6 +307,7 @@ font-weight: bold;
        padding-right: 30px;
        padding-top: 10px;
        padding-bottom: 10px;
+       font-family: 'Poppins', sans-serif;
     }
    
     .gbtn:hover{
@@ -318,6 +322,7 @@ font-weight: bold;
        color: white;
        box-sizing: border-box;
    justify-content: space-between;
+   font-family: 'Poppins', sans-serif;
    }
    
    .redes{

@@ -2,8 +2,7 @@
 
 body{
     display:flex;
-    justify-content: center;
-       
+    justify-content: center; 
     }
 
 
@@ -19,8 +18,8 @@ body{
 .navega{
     display:grid ;
     grid-template-columns: 50fr 50fr;
-    align-items: center;   
-    
+    align-items: center;  
+    padding-left: 15%;
 }
 
 .navs{
@@ -46,6 +45,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    padding-right: 10%;
 }
 
 .logSig button{
